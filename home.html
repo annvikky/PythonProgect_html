@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма заявки</title>
+    <style>
+        .my-input {
+            width: 200px;
+            color: gray;
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-info {
+            padding: 20px;
+            background-color: purple;
+            width: 500px;
+            border-radius: 10px;
+            color: white;
+            margin: 20px;
+        }
+        .form-container {
+            width: 250px;
+            background-color: gray;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px;
+        }
+        .form-container button {
+            background-color: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="contact-info">
+    <h2>Контактные данные:</h2>
+    <p>Москва +7 777 777 77 77</p>
+    <p>Санкт-Петербург +7 888 888 88 88</p>
+</div>
+<div class="form-container">
+    <h2>Оставьте заявку</h2>
+    <form>
+        <input type="text" placeholder="Имя" class="my-input" />
+        <input type="email" placeholder="e-mail" class="my-input" />
+        <textarea placeholder="Сообщение" class="my-input"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</div>
+</body>
+</html>
